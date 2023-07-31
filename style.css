@@ -1,0 +1,85 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container {
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gNO89b{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    top: 116px;
+    right: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(227, 227, 227);
+    border: 0;
+
+}
+
+.Sans{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    position: absolute;
+    top: 77px;
+    left: 50%;
+    transform: translateX(-10%);
+    background-color: rgb(227, 227, 227);
+    border: 0;
+
+}
+
+
+#google {
+    width: 300px;
+    height: 125px;
+    border-radius: 50px; 
+    box-shadow: 0 4px 8px rgba(228, 225, 225, 0.1);
+}
+
+.search-box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px; /* Oval şekli için yüksek bir değer kullanıyoruz */
+    width: 500px;
+}
+
+input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 50px; 
+}
+
+button {
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 50px; 
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(428%);
+}
+
+
+
+
